@@ -60,7 +60,7 @@ class DemoScreen extends StatelessWidget {
 
 </td>
 <td>
-<img  src="https://github.com/darik04/cupertino_container/blob/main/screenshots/screen_1.png" alt="Demo">
+<img  src="https://github.com/darik04/cupertino_container/blob/main/screenshots/screen_1.png?raw=true" alt="Demo">
 </td>
 </tr>
 </table>
