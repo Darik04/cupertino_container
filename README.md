@@ -42,13 +42,14 @@ class DemoScreen extends StatelessWidget {
     return Scaffold(  
       body: Center(  
         child: CupertinoContainer(
-            radius: BorderRadius.circular(30),/// BORDER RADIUS CUPERTINO
+            /// BORDER RADIUS CUPERTINO
+            radius: BorderRadius
+                .circular(30),
             width: 200,
             height: 100,
             child: const Center(
                 child: Text(
                 '30 rounded', 
-                style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold),
                 )
             ),
         ),
@@ -60,7 +61,7 @@ class DemoScreen extends StatelessWidget {
 
 </td>
 <td>
-<img  src="https://github.com/darik04/cupertino_container/blob/main/screenshots/screen_1.png?raw=true" alt="Demo">
+<img  src="https://github.com/darik04/cupertino_container/blob/main/screenshots/screen_1.png?raw=true" alt="Demo" style="min-width: 200px;">
 </td>
 </tr>
 </table>
